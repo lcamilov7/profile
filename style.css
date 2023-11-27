@@ -1,0 +1,69 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(70deg, rgb(20,20,20), gray);
+  color: whitesmoke;
+  text-align: center;
+}
+img {
+  width: 150px;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+.button {
+  background-color: rgb(50,50,50);
+  margin: 30px;
+  padding-block: 5px;
+  padding-inline: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+.button:hover {
+  background: linear-gradient(70deg, rgb(20,20,20), gray);
+}
+.container {
+  width: 700px;
+  margin: 0px auto;
+}
+.card {
+  background-color: rgba(30,30,30,0.2);
+  padding: 20px 20px;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+h1, h3 {
+  color: orangered;
+}
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+li {
+  display: inline;
+  padding-inline: 10px;
+}
+i {
+  color: whitesmoke;
+  font-size: 50px;
+}
+i:hover {
+  color: orangered;
+}
